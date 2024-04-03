@@ -7,24 +7,18 @@ $body-bg: rgba(231, 249, 252, 1.0);
 $input-bg: white;
 $input-btn-font-family: $font-family-base;
 $purple: rgb(216, 221, 248, 1.0);
+$primary: #6c757d;
+$navbar-dark-color: $purple;
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-.btn-primary-gray-border-radius-lg {
-    @include button-variant(#6c757d, #5a6268, #545b62);
-    border-radius: 30px;
-    color: white;
-}
 
 .h1-sign-in {
     font-family: "indie flower";
 }
-.underline {
-    text-decoration: underline;
-}
-.bg-purple {
+nav {
     background-color: $purple;
 }
