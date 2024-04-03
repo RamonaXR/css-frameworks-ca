@@ -5,7 +5,8 @@ $font-family-sans-serif: "indie flower", "inria sans" system-ui, -apple-system, 
 $font-family-base: 'inria sans', sans-serif;
 $body-bg: rgba(231, 249, 252, 1.0);
 $input-bg: white;
-$input-btn-font-family: "inria sans";
+$input-btn-font-family: $font-family-base;
+$purple: #6f42c1;
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -20,4 +21,7 @@ $input-btn-font-family: "inria sans";
 
 .h1-sign-in {
     font-family: "indie flower";
+}
+.underline {
+    text-decoration: underline;
 }
