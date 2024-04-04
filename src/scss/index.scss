@@ -16,9 +16,33 @@ $navbar-dark-color: $purple;
 // Then add additional custom code here
 
 
+.visually-hidden-custom {
+    display: none !important;
+}
 .h1-sign-in {
     font-family: "indie flower";
 }
+
 nav {
     background-color: $purple;
+}
+@include media-breakpoint-up(md) {
+    nav {
+        position: fixed !important;
+        min-height: 100%;
+        width: 200px;
+    }
+
+    body {
+
+        header,
+        main,
+        footer {
+            margin-left: 200px !important;
+        }
+    }
+
+    .visually-hidden-custom {
+        display: block !important;
+    }
 }
