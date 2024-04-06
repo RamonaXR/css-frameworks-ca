@@ -9,6 +9,8 @@ $input-btn-font-family: $font-family-base;
 $purple: rgb(216, 221, 248, 1.0);
 $primary: #6c757d;
 $navbar-dark-color: $purple;
+$gray-800: #343a40 !default;
+$nav-link-color: $gray-800;
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -23,6 +25,10 @@ $navbar-dark-color: $purple;
     font-family: "indie flower";
 }
 
+.post-photo {
+    height: 48px;
+    width: 48px;
+}
 nav {
     background-color: $purple;
 }
@@ -33,14 +39,9 @@ nav {
         width: 200px;
     }
 
-    body {
-
-        header,
-        main,
-        footer {
-            margin-left: 200px !important;
+                                                                                                                                body {
+            margin: 0 0 0 200px !important;
             // Must write JS to exclude this from login-page
-        }
     }
 
     .visually-hidden-custom {
