@@ -15,6 +15,8 @@ function removeClass() {
     });
 }
 
+
+
 function router() {
     switch(location.pathname) {
         case "/profile/":
