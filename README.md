@@ -1,6 +1,6 @@
 # css-frameworks-ca
 
-[image](/images/Screenshot%202024-04-07%20at%2021.50.33.png)
+[image](/images/readme-screenshot.png)
 
 ## Description
 
